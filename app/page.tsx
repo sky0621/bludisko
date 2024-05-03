@@ -23,7 +23,10 @@ const Home = () => {
         <Content>
           <Row>
             {images.map((image, index) => (
-              <Col span={8} key={index}><Image src={image} alt={image} /></Col>
+              <Col key={index} xs={{ flex: "100%" }} sm={{ flex: "50%" }} md={{ flex: "40%" }}
+                   lg={{ flex: "20%" }} xl={{ flex: "10%" }}><Image
+                src={image}
+                alt={image} /></Col>
             ))}
           </Row>
         </Content>
