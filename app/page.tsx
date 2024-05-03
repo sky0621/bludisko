@@ -18,6 +18,7 @@ const Home = () => {
   return (
     <main>
       <Layout>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <Header>Maze <span style={{ fontWeight: "normal", fontSize: "0.8em" }}>〜 Let's try! 〜</span></Header>
         <Content>
           <Row>
