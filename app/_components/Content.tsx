@@ -10,7 +10,9 @@ type Props = {
 export const Content = (props: Props) => {
   return (
     <>
-      <AntdLayout.Content data-id="Content">{props.children}</AntdLayout.Content>
+      <AntdLayout.Content data-id="Content">
+        {props.children}
+      </AntdLayout.Content>
     </>
   );
 };

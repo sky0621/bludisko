@@ -10,11 +10,16 @@ type Props = {
 export const Header = (props: Props) => {
   return (
     <>
-      <AntdLayout.Header data-id="Header" style={{
-        backgroundColor: "cadetblue",
-        fontWeight: "bold",
-        fontSize: "2em"
-      }}>{props.children}</AntdLayout.Header>
+      <AntdLayout.Header
+        data-id="Header"
+        style={{
+          backgroundColor: "cadetblue",
+          fontWeight: "bold",
+          fontSize: "2em",
+        }}
+      >
+        {props.children}
+      </AntdLayout.Header>
     </>
   );
 };
