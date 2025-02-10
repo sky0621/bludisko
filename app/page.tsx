@@ -12,6 +12,8 @@ const Home = () => {
     base + "v1714702480/IMG_20240503_105656_yhswl9.jpg",
     base + "v1714702480/IMG_20240503_105619_hzjges.jpg",
     base + "v1714702483/IMG_20240503_105716_dhyy3m.jpg",
+    base + "v1739187612/u9da33nrvxg4rkk1mces.jpg",
+    base + "v1739187612/lg2xnoy1hspofibkwqcc.jpg",
   ];
 
   return (
